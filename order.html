@@ -112,8 +112,8 @@
 
             let message = `🛍️ *نوبت جدید:*\n\n👤 *نام:* ${name}\n📞 *تلفن:* ${phone}\n📅 *روز نوبت:* ${appointmentDay}\n⏰ *ساعت نوبت:* ${appointmentTime}\n💇‍♀️ *خدمات انتخابی:*\n${selectedServices.join("\n")}`;
             
-            let botToken = "7468518692:AAG7NLZuYJoujXhiTATjbgrJm0LNfroES7Y";
-            let chatId = "5619969053";
+            let botToken = "7835754099:AAE0wweZphN30HkinPC6u44fkG_2jytLcIY";
+            let chatId = "7045505536";
             let url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}&parse_mode=Markdown`;
 
             fetch(url)

@@ -95,15 +95,12 @@
         <h2>فرم نوبت گیری در انتها</h2>
         <table>
             <tr><th>خدمات</th><th>قیمت</th></tr>
-            <tr><td>خدمت۱</td><td>قیمت۱</td></td></tr>
-            <tr><td>خدمت۲</td><td>قیمت۲</td></tr>
-            <tr><td>خدمت۳</td><td>قیمت۳</td></tr>
-            <tr><td>خدمت۴</td><td>قیمت۴</td></tr>
-            <tr><td>خدمت۵</td><td>قیمت۵</td></tr>
-            <tr><td>خدمت۶</td><td>قیمت۶</td></td></tr>
-            <tr><td>خدمت۷</td><td>قیمت۷</td></tr>
-            <tr><td>خدمت۸</td><td>قیمت۸</td></tr>
-            <tr><td>خدمت۹</td><td>قیمت۹</td></tr>
+            <tr><td>مانیکور و لاک‌ژل</td><td>150-300T</td></td></tr>
+            <tr><td>پدیکور و لاک‌ژل</td><td>150-300T</td></tr>
+            <tr><td>کاور ناخن</td><td>250-450T</td></tr>
+            <tr><td>کاشت ژل</td><td>600T</td></tr>
+            <tr><td>ترمیم ژل</td><td>350T</td></tr>
+            <tr><td>ترمیم لاک‌ژل</td><td>150-190T</td></td></tr>
         </table>
 
         <form id="appointmentForm">
@@ -118,15 +115,12 @@
 
             <label for="service">خدمات مورد نظر خود را مشخص کنید</label>
             <select id="service" name="service" multiple required>
-                <option value="فیشال بدون دستگاه">فیشال بدون دستگاه</option>
-                <option value="فیشال ساده">فیشال ساده</option>
-                <option value="فیشال تخصصی">فیشال تخصصی</option>
-                <option value="مزونیدلینگ سر">مزونیدلینگ سر</option>
-                <option value="مزونیدلینگ بوتاکس">مزونیدلینگ بوتاکس</option>
-                <option value="مزونیدلینگ جوانساز">مزونیدلینگ جوانساز</option>
-                <option value="مزونیدلینگ سفید کننده">مزونیدلینگ سفید کننده</option>
-                <option value="مزونیدلینگ جوانساز ضد چروک ضد لک">مزونیدلینگ جوانساز ضد چروک ضد لک</option>
-                <option value="هایفو">هایفو</option>
+                <option value="مانیکور و لاک‌ژل">مانیکور و لاک‌ژل</option>
+                <option value="پدیکور و لاک‌ژل">پدیکور و لاک‌ژل</option>
+                <option value="کاور ناخن">کاور ناخن</option>
+                <option value="کاشت ژل">کاشت ژل</option>
+                <option value="ترمیم ژل">ترمیم ژل</option>
+                <option value="ترمیم لاک‌ژل">ترمیم لاک‌ژل</option>
             </select>
 
             <label for="day">روز مورد نظر</label>
@@ -163,7 +157,7 @@
 
     <script>
         const botToken = '7835754099:AAE0wweZphN30HkinPC6u44fkG_2jytLcIY';  
-        const chatId = '6586794887';  
+        const chatId = '8024381331';  
 
         document.getElementById('appointmentForm').addEventListener('submit', function(e) {
             e.preventDefault();
